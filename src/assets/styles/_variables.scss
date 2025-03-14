@@ -1,0 +1,48 @@
+:root {
+  // 顏色
+  --bg-color: #1f2436;
+  --primary-color: #f8c890;
+  --ivory-white: #fffff0;
+  --dark-gray: #333333;
+  --gray: #666666;
+  --light-gray: #C0C0C0;
+
+  // 動畫過渡
+  --transition: all 0.3s ease;
+}
+
+@mixin resetCss() {
+
+  div,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  header,
+  menu,
+  nav,
+  aside,
+  main,
+  article,
+  section,
+  form,
+  input,
+  label,
+  table,
+  tr,
+  td,
+  th,
+  img {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+}
